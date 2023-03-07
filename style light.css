@@ -1,0 +1,124 @@
+html {
+    color: rgb(0, 0, 0); /* The whole pages font color */
+    background-color: rgb(238, 238, 238);
+    text-decoration: none;
+    text-align: center;
+    overflow-y: scroll; /* Add the ability to scroll */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+html {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+h1 {
+    font-size: 58px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h2 {
+    font-size: 38px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p,
+h3,
+li {
+    font-size: 25px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+    font-size: 23px;
+    font-family: 'Noto Sans', sans-serif;
+    color: dodgerblue;
+
+}
+
+.left h3 {
+    text-align: left;
+}
+
+.left-text ul {
+    text-align: left;
+    margin: 0 auto;
+}
+
+.content {
+    border: solid rgb(79, 79, 79);
+    background-color: white;
+    width: 78%;
+    margin-left: 43vh;
+    border-radius: 7px;
+}
+
+.content-text {
+    background-color: white;
+    width: 98%;
+    padding-left: 2vh;
+}
+
+.main-title {
+    border: solid rgb(79, 79, 79);
+    background-color: white;
+    width: 99.7%;
+    border-radius: 7px;
+}
+
+.title {
+    color: black;
+    font-size: 45px;
+    margin: 2vh auto;
+}
+
+.left {
+    text-align: center;
+    border: solid rgb(79, 79, 79);
+    background-color: white;
+    position: absolute;
+    width: 20%;
+    height: 119.9%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.left-text {
+    width: 90%;
+    padding-left: 2vh;
+    background-color: white;
+}
+
+.left-container {
+    text-align: center;
+    border: solid rgb(79, 79, 79);
+    background-color: white;
+    position: absolute;
+    width: 90%;
+    height: 49%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.left-container-text {
+    width: 90%;
+    padding-left: 3vh;
+    text-align: center;
+}
+
+.left-container-text ul {
+    text-align: left;
+    margin: 0 auto;
+}
+
+hr {
+    width: 80%;
+    border-top: 0.4vh solid rgb(79, 79, 79);
+    color: none;
+    border-radius: 5px;
+}
